@@ -1,0 +1,23 @@
+# Dependencies
+node_modules/
+*/node_modules/
+
+# Environment variables (JANGAN di-push ke GitHub untuk keamanan)
+.env
+.env*.local
+*/.env
+*/.env*.local
+
+# Expo & build
+.expo/
+*/.expo/
+dist/
+web-build/
+
+# Logs
+*.log
+npm-debug.*
+
+# OS / Editor
+.DS_Store
+Thumbs.db
